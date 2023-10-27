@@ -1,9 +1,9 @@
 # C'est quoi la clean architecture 
 
 > les débuts : Uncle Bob 
-  - état d'esprit tournée vers faire des choses simple  
+  - état d'esprit tournée vers faire des choses simples  
   - s'inscrit dans le mouvement du software craftmanship 
-  - nommage proéminient ( on oublie `i` ou `x` ) on nomme corectement ses variables et ses fonctions 
+  - nommage proéminent ( on oublie `i` ou `x` ) on nomme correctement ses variables et ses fonctions 
   - framework de règles pour faire du code maintenable 
   - second nom => Port/Adapter , Architecture Hexagonal
 
@@ -23,14 +23,14 @@
    >> faire un schema 
 
 > Avantage 
-  - possiblité de `mocker` plus simplement ses dépendances (exemples de stripe/paypal)
+  - possibilité de `mocker` plus simplement ses dépendances (exemples de stripe/PayPal)
   - possibilité d'interchangé des dépendances de façon ultra rapide grâce à l'implémentation des interfaces 
     - attention à python => les class `abstract` sont des interfaces 
     - on peut carrément décidé logiquement qu'elle dépendances on veut charger à la volé en base de donnée en fonction du client 
   - TDD in action => tout est module donc on peut tester rapidement tout sans avoir à se casser la tête avec des dépendances 
   
 
-> DESAVANTAGES
+> DÉSAVANTAGES
   - beaucoup de code de configuration => interfaces et beaucoup de code à crée 
   - demande de bien comprendre et de comprendre des mécanisme de code assez poussé 
   - beaucoup de couche d'abstraction à gérer et de gestion à faire 
@@ -38,8 +38,8 @@
 
 > RESSOURCES 
   - slack wealcome => https://join.slack.com/t/wealcome/shared_invite/zt-267gck1f4-ZMtuf5r2DmNoq6WqdosviA
-  - Clean Architecture/Clean code les livres ( prenez les en anglais svp => amazon)
-  - linkedin => Michael Azzard, et autre 
+  - Clean Architecture/Clean code les livres ( prenez les en anglais svp => Amazon)
+  - LinkedIn => Michael Azzar, et autre 
   - youtube => codeOpinion/devoxx ....  
 
 > SOURCE 

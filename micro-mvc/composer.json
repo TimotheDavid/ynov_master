@@ -1,9 +1,0 @@
-{
-    "name": "devertry/micro-mvc",
-    "autoload": {
-        "psr-4": {
-            "MVC\\": "src/"
-        }
-    },
-    "require": {}
-}
